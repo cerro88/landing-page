@@ -1,0 +1,153 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.fondo {
+    width: 100%;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+    background:
+        url(/home/apweb/boy_plant.png) 0px 650px / 600px 512px no-repeat,
+        url(/home/apweb/circulo.png) -20px -60px / 700px 700px no-repeat, 
+        url(/home/apweb/Ellipse_202.png) 1600px 700px / 300px 300PX no-repeat;
+    }
+
+.search {
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+.POT {
+    color: #fff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 18.4px;
+    padding: 0px 38px 0px 32px;
+    width: 63px;
+    }
+
+
+.title {
+    width: 702px;
+    height: 156px;
+    flex-shrink: 0;
+    padding: 282px 369px 586px 369px;
+    text-align: center;
+   
+}
+
+
+.t{
+    margin: 20px;
+}
+
+
+
+.title > div:first-child{
+    color: #41403C;
+    font-family: Red Hat Text, sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.3%; /* 152.6GIT px */
+    letter-spacing: -6px; 
+    
+
+}
+
+.title > div:nth-child(2){
+    color: rgba(248, 248, 248, 0.80);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-family: Red Hat Text, sans-serif;
+    letter-spacing: -4.8px;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.3%; /* 122.08px */
+    letter-spacing: -4.8px;
+ 
+
+}
+.title > div:nth-child(3){
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.title > div:nth-child(4){
+    flex-shrink: 0;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.title > div:last-child > button{
+    border: 2px solid #002AFF;
+    background: #F2F2F2;
+    width: 135px;
+    height: 57px;
+
+}
+    
+.menu {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    }
+
+.menu > a{
+    padding: 20px 15.26px;
+    color: #0028F8;
+    font-family: Red Hat Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 76.3%; /* 15.26px */
+    letter-spacing: -0.6px;
+    display: flexbox;
+    }
+
+.lorem {
+    padding: 621px 510px 357px 510px;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    }
+
+.sign_up {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #FFF;
+    font-family: "Raleway";
+    font-size: 15px;
+    float: right;
+}
+
