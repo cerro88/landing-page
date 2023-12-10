@@ -42,7 +42,7 @@
 }
 
 .t{
-    
+    margin: 20px;
     position: relative;
    
 }
@@ -50,9 +50,49 @@
 .search {
     width: 25px;
     height: 25px;
-    
 }
 
+.title{
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 10% 5%;
+   text-align: center;
+}
 
+.plant{
+    flex-shrink: 0;
+    text-align: center;
+    color: #41403C;
+    font-family: Red Hat Text;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.3%; /* 152.6px */
+    letter-spacing: -6px;
+}
 
+.house{
+    
+    font-size: 160px;
+    font-weight: 700;
+    line-height: 76.3%; /* 122.08px */
+    letter-spacing: -4.8px;
+    color: transparent;
+    font-style: normal;
+    font-family:Red Hat Text, sans-serif;
+    -webkit-text-stroke: 2px #000;
+    margin: 5px;
+}
 
+.text{
+    padding: 621px 510px 357px 510px;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}

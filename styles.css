@@ -2,6 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
 }
 
 
@@ -9,13 +17,7 @@
 
 
 
-
-
 .fondo {
-    width: 100%;
-    min-width: 400px;
-    max-width: 1200px;
-    margin: auto;
     background:
         url(/home/apweb/Imagenes/boy_plant.png) 0px 650px / 600px 512px no-repeat,
         url(/home/apweb/Imagenes/circulo.png) -20px -60px / 700px 700px no-repeat, 
@@ -45,12 +47,11 @@
 
 
 .title {
-    width: 702px;
-    height: 156px;
-    flex-shrink: 0;
-    padding: 282px 369px 586px 369px;
-    text-align: center;
-   
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 10% 5%;
+   text-align: center;
 }
 
 
@@ -68,7 +69,7 @@
     font-weight: 700;
     line-height: 76.3%; /* 152.6GIT px */
     letter-spacing: -6px; 
-    
+    max-width: 100%;
 
 }
 
@@ -151,3 +152,6 @@
     float: right;
 }
 
+.text{
+    margin: 100px;
+}
