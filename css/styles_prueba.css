@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #F2F2F2;
 }
 
 .principla-container {
@@ -190,6 +191,10 @@ body {
 }
 
 .button{
+    width: 135px;
+    height: 57px;
+    border: 2px solid #002AFF;
+    background: #F2F2F2;
     color: #002AFF;
     text-align: center;
     font-family: Roboto;
@@ -198,11 +203,8 @@ body {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    background-color: #fff;
-    border: 2px solid #002aff;
-    width: 8%;
-    height: 5%;
-    margin-top: 50px;
+    margin-top: 30px;
+
 }
 
 .elipse3{
