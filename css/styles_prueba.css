@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.principla-container {
+    margin: 0;
+    padding: 0;
+    max-width: 1400px;
+    min-width: 320px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu1 {
+    position: relative;
+    z-index: 2;
+}
+
+.menu1 a {
+    margin-right: 150px;
+
+}
+
+.elipse1 {
+    background-image: url(../img/Ellipse\ 202_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -30%;
+}
+
+.elipse2 {
+    background-image: url(../img/Ellipse\ 202.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    z-index: 1;
+    margin-right: -115%;
+    top: -5px;
+}
+
+.boy {
+    background-image: url(../img/boy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 137%;
+    position: absolute;
+    z-index: 1;
+    margin-top: -15%;
+
+}
+
+.menu2 {
+    position: relative;
+    z-index: 2;
+    margin-right: -29vh;
+}
+
+
+.menu2 img {
+    width: 100%;
+    height: 16%;
+}
+
+.singUp {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    width: 170%;
+    height: 16%;
+
+}
+
+
+.menu {
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+
+.POT {
+    color: #fff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 18.4px;
+    padding: 0px 38px 0px 32px;
+    width: 6%;
+    z-index: 2;
+    position: relative;
+    top: -10vw;
+}
+
+.t {
+    margin-left: 18px;
+    margin-top: 3px;
+}
+
+.title {
+    text-align: center;
+    z-index: 2;
+    /* pone al titulo encima de la imagen*/
+    position: relative;
+}
+
+.title>div:first-child {
+    color: #41403C;
+    font-family: Red Hat Text, sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.3%;
+    /* 152.6GIT px */
+    letter-spacing: -6px;
+    max-width: 100%;
+    height: 156px;
+    position: relative;
+    z-index: 2;
+}
+
+.title>div:nth-child(2) {
+    font-family: Red Hat Text, sans-serif;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.3%;
+    /* 122.08px */
+    letter-spacing: -4.8px;
+    margin-left: 200px;
+}
+
+.icons {
+    margin-left: inherit;
+    width: 2%;
+}
+
+.title>div:nth-child(2) span {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    margin-top: 10px;
+}
+
+.title>div:nth-child(4) {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-top: -208px;
+}
+
+.title>div:nth-child(4) {
+    flex-shrink: 0;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+
+}
+
+.title>div:last-child>button {
+    border: 2px solid #002AFF;
+    background: #F2F2F2;
+    width: 135px;
+    height: 57px;
+
+}
+
+.button{
+    color: #002AFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    background-color: #fff;
+    border: 2px solid #002aff;
+    width: 8%;
+    height: 5%;
+    margin-top: 50px;
+}
+
+.elipse3{
+    background-image: url(../img/Ellipse\ 202\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25%;
+    height: 55%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 90%;
+    top: 81%;
+
+}
