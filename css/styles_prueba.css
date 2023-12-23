@@ -159,6 +159,11 @@ body {
     margin-top: 10px;
 }
 
+.title>div:nth-child(2) span .OUSE {
+    color: rgba(242, 242, 242, 0.80);
+}
+
+
 .title>div:nth-child(4) {
     color: #000;
     text-align: center;
