@@ -7,16 +7,17 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-width: 30%;
-    max-width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .menu{
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin: 20px;
     z-index: 2;
     position: relative;
+    margin-left: 250px;
 }
 .menu > a{
     padding: 20px 41.26px;
@@ -50,8 +51,7 @@ body{
 }
 
 .sign_up {
-    width: 100px;
-    height: 25px;
+    height: 35px;
     border-radius: 20px;
     border: 1px solid #FFF;
     background-color:transparent;
@@ -65,66 +65,6 @@ body{
     body {
       background-color: #87ceeb;
     }
-    .title > div:first-child{
-        color: #41403C;
-        font-family: Red Hat Text, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 76.3%; /* 152.6GIT px */
-        letter-spacing: -6px; 
-        max-width: 100%;
-        height: 156px;
-    }
-    
-    .title > div:nth-child(2){
-        font-family: Red Hat Text, sans-serif;
-        font-size: 160px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 76.3%; /* 122.08px */
-        letter-spacing: -4.8px;
-        margin-left: 200px;
-    }
-    
-    .icons{
-        margin-left: 175px;
-        width: 2%;
-    }
-    .title > div:nth-child(2) span {
-        -webkit-text-stroke: 2px black;
-        color: transparent;
-        margin-top: 10px;
-    }
-    .title > div:nth-child(3){
-        color: #000;
-        text-align: center;
-        font-family: Raleway;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        letter-spacing: 1.2px;
-        margin-top: 70px;
-    }
-    
-    .title > div:nth-child(4){
-        flex-shrink: 0;
-        margin-top: 20px;
-        text-align: center;
-        margin-top: 70px;
-        
-    }
-    
-    .title > div:last-child > button{
-        border: 2px solid #002AFF;
-        background: #F2F2F2;
-        width: 135px;
-        height: 57px;
-    
-    }
-
-
 }
 
 
@@ -139,7 +79,7 @@ body{
     line-height: normal;
     letter-spacing: 18.4px;
     padding: 0px 38px 0px 32px;
-    width: 83px;
+    width: 100%;
     z-index: 2;
     position: relative;
 }
@@ -175,6 +115,7 @@ body{
     top: 36.6vw; 
     left: 0.2vh; 
     z-index: 1; 
+    size: 35%;
 }
 
 .title {
